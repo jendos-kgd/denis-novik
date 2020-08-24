@@ -81,7 +81,7 @@ h2 {
   line-height: 42px;
   text-align: center;
 }
-p, a {
+p, a, button {
   font-family: Gilroy-Medium, sans-serif;
   font-size: 18px;
   line-height: 22px;
@@ -222,4 +222,44 @@ hr {
   text-align: center;
   text-decoration: underline;
   margin-bottom: 100px;
+}
+/*===========Footer===========*/
+footer  {
+  padding-top: 115px;
+  padding-bottom: 120px;
+}
+footer p {
+  text-align: center;
+  margin-top: 20px;
+}
+footer button {
+  width: 180px;
+  height: 40px;
+  display: block;
+  margin: 30px auto 80px;
+  background-color: #070707;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+}
+.social_links {
+  width: 350px;
+  margin: 80px auto 45px;
+  display: flex;
+  justify-content: space-between;
+}
+.social_item {
+  width: 40px;
+  height: 40px;
+  background-image: url('img/sprite_social.png');
+  display: inline-block;
+}
+.instgram {
+   background-position: -102px;
+}
+.behance {
+  background-position: -201px;
+}
+.dribbble {
+  background-position: -303px;
 }
