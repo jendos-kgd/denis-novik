@@ -80,6 +80,7 @@ h2 {
   font-family: Gilroy-Bold, sans-serif;
   font-size: 34px;
   line-height: 42px;
+  text-align: center;
 }
 p {
   font-family: Gilroy-Medium, sans-serif;
@@ -160,3 +161,46 @@ hr {
 .about_block p {
   margin-top: 30px;
 }
+
+/*==============Skiils============*/
+.skills_block {
+  padding-top: 90px;
+}
+.skills_block p {
+  margin-top: 70px;
+  text-align: center;
+}
+.my_skills {
+  display: flex;
+  justify-content: space-between;
+}
+.skills_item {
+  width: 167px;
+  height: 207px;
+  margin-top: 80px;
+  position: relative;
+}
+.skills_item img {
+  display: block;
+  margin: 0 auto;
+}
+.skills_item p {
+  font-family: Gilroy-Bold, sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  color: #828282;
+  margin-top: 20px;
+  text-align: center;
+}
+.rate {
+  position: absolute;
+  bottom: 0;
+}
+.rate img {
+  display: inline-block;
+  margin-right: 9px;
+}
+.rate img:last-child {
+  margin-right: 0;
+}
+.my_skills
