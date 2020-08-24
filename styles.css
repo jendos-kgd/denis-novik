@@ -247,6 +247,7 @@ footer button {
   color: #fff;
   border: none;
   border-radius: 20px;
+  outline: none;
 }
 .social_links {
   width: 350px;
