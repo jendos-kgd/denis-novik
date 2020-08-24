@@ -1,0 +1,139 @@
+/*=======Сброс css=============*/
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain)*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, img {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/*=========Общие стили===========*/
+
+@font-face {
+  font-family: Gilroy-Bold;
+  src: url('fonts/Gilroy-Bold.eot');
+  src: url('fonts/Gilroy-Bold.ttf');
+  src: url('fonts/Gilroy-Bold.woff');
+}
+@font-face {
+  font-family: Gilroy-Medium;
+  src: url('fonts/Gilroy-Medium.eot');
+  src: url('fonts/Gilroy-Medium.ttf');
+  src: url('fonts/Gilroy-Medium.woff');
+}
+
+body {
+  max-width: 1445px;
+}
+h1 {
+  font-family: Gilroy-Bold, sans-serif;
+  font-size: 47px;
+  line-height: 59px;
+  color: #070707;
+}
+p {
+  font-family: Gilroy-Medium, sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+}
+.central_container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+/*========Header=============*/
+header {
+  font-family: Gilroy-Bold, sans-serif;
+}
+.navbar {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar li {
+  display: inline-block;
+}
+.navbar li a {
+  color: #828282;
+  font-size: 18px;
+}
+.navbar li a:hover {
+  color: #070707;
+}
+hr {
+  color: #828282;
+  margin-top: 30px;
+}
+.header_about {
+  display: flex;
+  justify-content: space-between;
+}
+.name {
+  width: 124px;
+  margin-top: 40px;
+}
+.profession {
+  width: 156px;
+  margin-top: 100px;
+}
+.lang_switch {
+  transform: rotate(270deg);
+  height: 20px;
+  width: 65px;
+  margin-right: -25px;
+  margin-top: 100px;
+}
+.lang_switch a {
+  font-family: Gilroy-Bold, sans-serif;
+  display: inline-block;
+}
+#ru {
+  border-right: 1px solid #070707;
+  padding-right: 5px;
+  color: #828282;
+}
+#photo {
+  width: 100%;
+  margin-top: 30px;
+}
