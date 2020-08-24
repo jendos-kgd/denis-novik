@@ -138,15 +138,21 @@ hr {
   font-family: Gilroy-Bold, sans-serif;
   display: inline-block;
 }
+.lang_switch a:hover {
+  color: #070707;
+}
+.deactive {
+  color: #828282;
+}
 #ru {
   border-right: 1px solid #070707;
   padding-right: 5px;
-  color: #828282;
 }
 #photo {
   width: 100%;
   margin-top: 30px;
 }
+
 
 /*==============About==============*/
 .about_block {
