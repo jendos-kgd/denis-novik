@@ -281,7 +281,9 @@ footer button {
   height: 812px;
   position: absolute;
   top: 0;
+  left: 0;
   padding-top: 65px;
+  padding-left: 25px;
   background-color: #ffffff;
 }
 .mobile_navbar li {
@@ -296,8 +298,8 @@ footer button {
 }
 .mobile_lang_switch {
   position: absolute;
-  right: 30px;
-  bottom: 170px;
+  right: 5px;
+  bottom: 100px;
   width: auto;
   transform: rotate(90deg);
 }
@@ -307,11 +309,11 @@ footer button {
 #close_dropdown_btn {
   position: absolute;
   top: 65px;
-  right: 55px;
+  right: 25px;
 }
 
 @media (min-width: 376px) {
-  .menu_btn_mobile {
+  #dropdown_btn {
     display: none;
   }
 }
