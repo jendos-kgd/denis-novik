@@ -10,8 +10,8 @@
   </head>
   <body>
     <header class="central_container">
-      <img src="img/menu_btn_mobile.png" class="menu_btn_mobile">
-      <div class="mobile_block">
+      <img src="img/menu_btn_mobile.png" id="dropdown_btn">
+      <div id="dropdown_block">
         <nav class="mobile_nav">
           <ul class="mobile_navbar">
             <li><a href="#">Home</a></li>
@@ -21,6 +21,11 @@
             <li><a href="#contacts">Contacts</a></li>
           </ul>
         </nav>
+        <div class="lang_switch mobile_lang_switch">
+          <a href="ru.html" id="ru" class="deactive">RU</a>
+          <a href="index.html" id="eng">ENG</a>
+        </div>
+        <img src="img/cross.png" alt="cross" id="close_dropdown_btn">
       </div>
       <nav class="nav">
         <ul class="navbar">
@@ -39,7 +44,7 @@
         <div class="profession">
           <p>UX | UI designer <br> 24 years old, Minsk</p>
         </div>
-        <div class="lang_switch">
+        <div class="lang_switch desktop_lang_switch">
           <a href="ru.html" id="ru" class="deactive">RU</a>
           <a href="index.html" id="eng">ENG</a>
         </div>
