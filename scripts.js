@@ -25,10 +25,21 @@ window.onresize = resize
 $(document).ready (
   function DropDown() {
     $('#dropdown_btn').click(function () {
-      $('#dropdown_block').css('display', 'block')
+      $('#dropdown_block').css('display', 'block');
     });
     $('#close_dropdown_btn').click(function () {
       $('#dropdown_block').css('display', 'none')
     })
   }
 );
+
+// Close dropdown by any click
+jQuery(function($){
+    $(document).click(function (e){ // событие клика по странице
+        if (!$("#dropdown_block").is(e.target) && // если клик сделан не по элементу
+            $("#dropdown_block").has(e.target).length === 0 && // если клик сделан не по вложенным элементам
+            !$('#dropdown_btn').is(e.target)) {  //если клик сделан не по кнопке открытия dropdown
+            $('#dropdown_block').css('display', 'none'); // скрываем блок
+        }
+    });
+});
